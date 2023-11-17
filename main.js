@@ -26,12 +26,6 @@ btnCancel33.onclick = () => {
 }
 
 
-
-
-
-
-
-
 // dialog1
 let dialog1 = document.querySelector(".dialog1")
 let AddName1 = document.querySelector(".AddName1")
@@ -170,11 +164,23 @@ function get1(newData1) {
         }
         btnEdit.classList.add("btnEdit")
 
+        // check
+        let check = document.createElement("input")
+        check.type = "checkbox"
+        check.checked = element.isComplete
+        check.onclick = () => {
+            element.isComplete = !element.isComplete
+            isCompleteUser1(element.id, element)
+        }
+        if (element.isComplete == true) {
+            forName.style.textDecoration = "line-through"
+            forName.style.color = "grey"
+        }
 
         let card1_inner = document.createElement("div")
         card1_inner.classList.add("card1_inner")
 
-        card1_inner.append(forName, forAge, btnDel, btnEdit)
+        card1_inner.append(forName, forAge, btnDel, btnEdit, check)
         card1.append(card1_inner)
     });
 }
@@ -206,10 +212,11 @@ function get2(newData2) {
         }
         btnEdit.classList.add("btnEdit")
 
+
         let card2_inner = document.createElement("div")
         card2_inner.classList.add("card2_inner")
 
-        card2_inner.append(forName, forAge, btnDel, btnEdit)
+        card2_inner.append(forName, forAge, btnDel, btnEdit, check)
         card2.append(card2_inner)
     });
 }
@@ -486,3 +493,20 @@ async function delUser3(id) {
 }
 
 
+// iscomLpete1_______________________________
+async function isCompleteUser1(id, user1) {
+    try {
+        let response = await fetch(`${url1}/${id}`, {
+            method: "PUT",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(user1)
+        }
+        )
+        getData1()
+    } catch (error) {
+        console.log(error);
+    }
+}

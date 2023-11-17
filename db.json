@@ -3,21 +3,61 @@
     {
       "name": "Nokia J8",
       "age": "120 $",
-      "id": 1700199354440
+      "id": 1700199354440,
+      "isCompelete": false,
+      "isComplete": true
+    },
+    {
+      "id": 1700205018140,
+      "name": "Nokia Prime X",
+      "age": "123 $",
+      "isCompelete": false
     }
   ],
   "cars": [
     {
-      "id": 1700199488779,
       "model": "Galaxy S20 Ultra",
-      "year": "230 $"
+      "year": "1230 $",
+      "id": 1700199488779,
+      "isCompelete": false
+    },
+    {
+      "id": 1700204955523,
+      "model": "Galaxy s7",
+      "year": "789 $",
+      "isCompelete": false
+    },
+    {
+      "id": 1700204995094,
+      "model": "Galaxy J5 prime",
+      "year": "489 $",
+      "isCompelete": false
     }
   ],
   "animals": [
     {
-      "name": "Iphone 12 pro",
-      "color": "157 $",
-      "id": 1700199520195
+      "name": "Iphone 13 pro max",
+      "color": "183 $",
+      "id": 1700204806921,
+      "isCompelete": false
+    },
+    {
+      "name": "Iphone 15 pro max",
+      "color": "1510 $",
+      "id": 1700204831588,
+      "isCompelete": false
+    },
+    {
+      "id": 1700204865968,
+      "name": "Iphone 7s",
+      "color": "12 $",
+      "isCompelete": false
+    },
+    {
+      "id": 1700204925314,
+      "name": "Iphone 11 pro",
+      "color": "489 $",
+      "isCompelete": false
     }
   ]
 }
