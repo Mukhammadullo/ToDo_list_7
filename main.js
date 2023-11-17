@@ -182,9 +182,11 @@ function get3(newData3) {
 
         let forName = document.createElement("h1")
         forName.innerHTML = element.name
+        forName.classList.add("forName")
 
         let forAge = document.createElement("h2")
         forAge.innerHTML = element.color
+        forAge.classList.add("forAge")
 
         // btndel
         let btnDel = document.createElement("button")
@@ -192,6 +194,7 @@ function get3(newData3) {
         btnDel.onclick = () => {
             delUser3(element.id)
         }
+        btnDel.classList.add("btnDel")
 
         // edit
         let btnEdit = document.createElement("button")
@@ -199,8 +202,13 @@ function get3(newData3) {
         btnEdit.onclick = () => {
             editUser3(element)
         }
+        btnEdit.classList.add("btnEdit")
 
-        card3.append(forName, forAge, btnDel, btnEdit)
+        let card3_inner = document.createElement("div")
+        card3_inner.classList.add("card3_inner")
+
+        card3_inner.append(forName, forAge, btnDel, btnEdit)
+        card3.append(card3_inner)
     });
 }
 
