@@ -301,6 +301,7 @@
 .main_dialog3 {
     position: absolute;
 }
+
 .dialog3 {
     top: 160px;
     left: 1060px;
@@ -344,4 +345,92 @@
     color: white;
     font-size: 20px;
     border: none;
+}
+
+/* dialogEdit */
+.main_dailogEdit1 {
+    position: absolute;
+}
+
+.dialogEdit1 {
+    top: 160px;
+    left: 60px;
+    width: 450px;
+    height: 220px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 23px black;
+    border-radius: 8px;
+}
+
+.EditName1 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.EditAge1 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btnSave1 {
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* main_dialogEdit1 */
+.main_dialogEdit2 {
+    position: absolute;
+}
+
+.dialogEdit2 {
+    top: 160px;
+    left: 570px;
+    width: 450px;
+    height: 220px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 23px black;
+    border-radius: 8px;
+}
+
+.EditName2 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.EditAge2 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
 }
