@@ -32,10 +32,18 @@
     box-shadow: 0px 0px 12px green;
     border-radius: 5px;
 }
-.card1{
-width: 100%;
-height: auto;
-border: 2px solid rebeccapurple;
+
+.main_inner_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card1 {
+    width: 100%;
+    height: auto;
+    border: 2px solid rebeccapurple;
 }
 
 
@@ -60,8 +68,8 @@ border: 2px solid rebeccapurple;
 
 /* titleP */
 .titleP {
-    text-decoration: underline;
-    color: green;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
 
 .titleC {
