@@ -213,10 +213,23 @@ function get2(newData2) {
         btnEdit.classList.add("btnEdit")
 
 
+        // check
+        let check = document.createElement("input")
+        check.type = "checkbox"
+        check.checked = element.isComplete
+        check.onclick = () => {
+            element.isComplete = !element.isComplete
+            isCompleteUser2(element.id, element)
+        }
+        if (element.isComplete == true) {
+            forName.style.textDecoration = "line-through"
+            forName.style.color = "grey"
+        }
+
         let card2_inner = document.createElement("div")
         card2_inner.classList.add("card2_inner")
 
-        card2_inner.append(forName, forAge, btnDel, btnEdit, check)
+        card2_inner.append(forName, forAge, btnDel, btnEdit,check)
         card2.append(card2_inner)
     });
 }
@@ -506,6 +519,24 @@ async function isCompleteUser1(id, user1) {
         }
         )
         getData1()
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+// iscomLpete2_______________________________
+async function isCompleteUser2(id, user2) {
+    try {
+        let response = await fetch(`${url2}/${id}`, {
+            method: "PUT",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(user2)
+        }
+        )
+        getData2()
     } catch (error) {
         console.log(error);
     }
