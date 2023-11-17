@@ -229,7 +229,7 @@ function get2(newData2) {
         let card2_inner = document.createElement("div")
         card2_inner.classList.add("card2_inner")
 
-        card2_inner.append(forName, forAge, btnDel, btnEdit,check)
+        card2_inner.append(forName, forAge, btnDel, btnEdit, check)
         card2.append(card2_inner)
     });
 }
@@ -263,10 +263,24 @@ function get3(newData3) {
         }
         btnEdit.classList.add("btnEdit")
 
+        // check
+        let check = document.createElement("input")
+        check.type = "checkbox"
+        check.checked = element.isComplete
+        check.onclick = () => {
+            element.isComplete = !element.isComplete
+            isCompleteUser3(element.id, element)
+        }
+        if (element.isComplete == true) {
+            forName.style.textDecoration = "line-through"
+            forName.style.color = "grey"
+        }
+
+
         let card3_inner = document.createElement("div")
         card3_inner.classList.add("card3_inner")
 
-        card3_inner.append(forName, forAge, btnDel, btnEdit)
+        card3_inner.append(forName, forAge, btnDel, btnEdit, check)
         card3.append(card3_inner)
     });
 }
@@ -537,6 +551,24 @@ async function isCompleteUser2(id, user2) {
         }
         )
         getData2()
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+// iscomLpete3_______________________________
+async function isCompleteUser3(id, user3) {
+    try {
+        let response = await fetch(`${url3}/${id}`, {
+            method: "PUT",
+            headers: {
+                Accept: "application/json",
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify(user3)
+        }
+        )
+        getData3()
     } catch (error) {
         console.log(error);
     }

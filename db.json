@@ -5,13 +5,14 @@
       "age": "120 $",
       "id": 1700199354440,
       "isCompelete": false,
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 1700205018140,
       "name": "Nokia Prime X",
       "age": "123 $",
-      "isCompelete": false
+      "isCompelete": false,
+      "isComplete": true
     }
   ],
   "cars": [
@@ -26,7 +27,8 @@
       "id": 1700204955523,
       "model": "Galaxy s7",
       "year": "789 $",
-      "isCompelete": false
+      "isCompelete": false,
+      "isComplete": true
     },
     {
       "id": 1700204995094,
@@ -40,7 +42,8 @@
       "name": "Iphone 13 pro max",
       "color": "183 $",
       "id": 1700204806921,
-      "isCompelete": false
+      "isCompelete": false,
+      "isComplete": true
     },
     {
       "name": "Iphone 15 pro max",
