@@ -529,3 +529,37 @@
         font-size: 20px;
         border: none;
 }
+/* btnCancel */
+.btnCancel11{
+    width: 130px;
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: red;
+        box-shadow: 0px 0px 3px black;
+        color: white;
+        font-size: 20px;
+        border: none;
+}
+.btnCancel22{
+    width: 130px;
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: red;
+        box-shadow: 0px 0px 3px black;
+        color: white;
+        font-size: 20px;
+        border: none;
+}
+.btnCancel33{
+    width: 130px;
+        height: 40px;
+        margin-left: 10px;
+        border-radius: 5px;
+        background-color: red;
+        box-shadow: 0px 0px 3px black;
+        color: white;
+        font-size: 20px;
+        border: none;
+}

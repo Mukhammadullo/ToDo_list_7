@@ -11,19 +11,24 @@ btnCancel3.onclick = () => {
     dialog3.close()
 }
 
-// ____________________________________________________
-let btnCancel11 = document.querySelector(".btnCancel1")
+// editCancenl
+let btnCancel11 = document.querySelector(".btnCancel11")
 btnCancel11.onclick = () => {
     dialogEdit1.close()
 }
-let btnCancel22 = document.querySelector(".btnCancel2")
+let btnCancel22 = document.querySelector(".btnCancel22")
 btnCancel22.onclick = () => {
     dialogEdit2.close()
 }
-let btnCancel33 = document.querySelector(".btnCancel3")
+let btnCancel33 = document.querySelector(".btnCancel33")
 btnCancel33.onclick = () => {
     dialogEdit3.close()
 }
+
+
+
+
+
 
 
 
