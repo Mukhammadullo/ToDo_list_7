@@ -117,6 +117,8 @@ function get1(newData1) {
         forAge.innerHTML = element.age
         forAge.classList.add("forAge")
 
+     
+
         // btndel
         let btnDel = document.createElement("button")
         btnDel.innerHTML = "Delete"
@@ -187,6 +189,8 @@ function get3(newData3) {
         let forAge = document.createElement("h2")
         forAge.innerHTML = element.color
         forAge.classList.add("forAge")
+
+
 
         // btndel
         let btnDel = document.createElement("button")
