@@ -123,7 +123,7 @@ function get1(newData1) {
         btnDel.onclick = () => {
             delUser1(element.id)
         }
-
+        btnDel.classList.add("btnDel")
 
         // edit
         let btnEdit = document.createElement("button")
