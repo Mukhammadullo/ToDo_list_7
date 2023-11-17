@@ -194,6 +194,8 @@
     color: black;
 }
 
+
+
 /* dialoAdd */
 .main_dialog1 {
     position: absolute;
@@ -243,4 +245,103 @@
     font-size: 20px;
     border: none;
 
+}
+
+/* main_dialog2 */
+.main_dialog2 {
+    position: absolute;
+}
+
+.dialog2 {
+    top: 160px;
+    left: 570px;
+    width: 450px;
+    height: 220px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 23px black;
+    border-radius: 8px;
+}
+
+.AddName2 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.AddAge2 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btnAdd2 {
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* main_dialog3 */
+.main_dialog3 {
+    position: absolute;
+}
+.dialog3 {
+    top: 160px;
+    left: 1060px;
+    width: 450px;
+    height: 220px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 23px black;
+    border-radius: 8px;
+}
+
+.AddName3 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.AddAge3 {
+    width: 320px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.btnAdd3 {
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
