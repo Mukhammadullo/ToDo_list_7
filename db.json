@@ -25,9 +25,9 @@
       "id": 2
     },
     {
-      "id": 1700137301246,
       "name": "cat",
-      "color": "yellow"
+      "color": "yellow",
+      "id": 1700137301246
     }
   ]
 }
