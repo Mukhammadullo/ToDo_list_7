@@ -147,9 +147,11 @@ function get2(newData2) {
 
         let forName = document.createElement("h1")
         forName.innerHTML = element.model
+        forName.classList.add("forName")
 
         let forAge = document.createElement("h2")
         forAge.innerHTML = element.year
+        forAge.classList.add("forAge")
 
         // btndel
         let btnDel = document.createElement("button")
@@ -157,7 +159,7 @@ function get2(newData2) {
         btnDel.onclick = () => {
             delUser2(element.id)
         }
-
+        btnDel.classList.add("btnDel")
 
         // edit
         let btnEdit = document.createElement("button")
@@ -165,6 +167,7 @@ function get2(newData2) {
         btnEdit.onclick = () => {
             editUser2(element)
         }
+        btnEdit.classList.add("btnEdit")
 
         let card2_inner = document.createElement("div")
         card2_inner.classList.add("card2_inner")
