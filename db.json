@@ -1,38 +1,23 @@
 {
   "persons": [
     {
-      "name": "Muhammad",
-      "age": "12",
-      "id": 3
-    },
-    {
-      "name": "Samar",
-      "age": "23",
-      "id": 1700136669508
+      "name": "Nokia J8",
+      "age": "120 $",
+      "id": 1700199354440
     }
   ],
   "cars": [
     {
-      "model": "BMW",
-      "year": "Black",
-      "id": 1700137365810
-    },
-    {
-      "model": "Mercides_Bens",
-      "year": "White",
-      "id": 1700194328545
+      "id": 1700199488779,
+      "model": "Galaxy S20 Ultra",
+      "year": "230 $"
     }
   ],
   "animals": [
     {
-      "name": "Donkey",
-      "color": "red",
-      "id": 2
-    },
-    {
-      "name": "cat",
-      "color": "yellow",
-      "id": 1700137301246
+      "id": 1700199520195,
+      "name": "Iphone 12 pro",
+      "color": "239 $"
     }
   ]
 }
