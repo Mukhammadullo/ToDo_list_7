@@ -133,15 +133,29 @@
 }
 
 /* _______________________________ */
-.card3 {
+.main_card3 {
     width: 32%;
     height: auto;
-    border: 2px solid red;
-    box-shadow: 0px 0px 12px red;
-
     border-radius: 5px;
 }
 
+.main_inner_title3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card3 {
+    width: 32%;
+}
+
+.AddUser3 {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+}
 
 /* titleP */
 .titleP {
@@ -155,6 +169,6 @@
 }
 
 .titleA {
-    text-decoration: underline;
-    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
 }
