@@ -53,6 +53,9 @@ let btnSave3 = document.querySelector(".btnSave3")
 
 
 let card1 = document.querySelector(".card1")
+let card1_inner = document.querySelector(".card1_inner")
+
+
 let card2 = document.querySelector(".card2")
 let card3 = document.querySelector(".card3")
 
@@ -108,9 +111,11 @@ function get1(newData1) {
 
         let forName = document.createElement("h1")
         forName.innerHTML = element.name
+        forName.classList.add("forName")
 
         let forAge = document.createElement("h2")
         forAge.innerHTML = element.age
+        forAge.classList.add("forAge")
 
         // btndel
         let btnDel = document.createElement("button")
@@ -127,7 +132,11 @@ function get1(newData1) {
             editUser1(element)
         }
 
-        card1.append(forName, forAge, btnDel, btnEdit)
+        let card1_inner = document.createElement("div")
+        card1_inner.classList.add("card1_inner")
+
+        card1_inner.append(forName, forAge, btnDel, btnEdit)
+        card1.append(card1_inner)
     });
 }
 // get2___________________
