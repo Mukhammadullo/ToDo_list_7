@@ -1,3 +1,32 @@
+let btnCancel1 = document.querySelector(".btnCancel1")
+btnCancel1.onclick = () => {
+    dialog1.close()
+}
+let btnCancel2 = document.querySelector(".btnCancel2")
+btnCancel2.onclick = () => {
+    dialog2.close()
+}
+let btnCancel3 = document.querySelector(".btnCancel3")
+btnCancel3.onclick = () => {
+    dialog3.close()
+}
+
+// ____________________________________________________
+let btnCancel11 = document.querySelector(".btnCancel1")
+btnCancel11.onclick = () => {
+    dialogEdit1.close()
+}
+let btnCancel22 = document.querySelector(".btnCancel2")
+btnCancel22.onclick = () => {
+    dialogEdit2.close()
+}
+let btnCancel33 = document.querySelector(".btnCancel3")
+btnCancel33.onclick = () => {
+    dialogEdit3.close()
+}
+
+
+
 // dialog1
 let dialog1 = document.querySelector(".dialog1")
 let AddName1 = document.querySelector(".AddName1")
@@ -7,6 +36,7 @@ let AddUser1 = document.querySelector(".AddUser1")
 AddUser1.onclick = () => {
     dialog1.showModal()
 }
+
 
 
 // dialog2
@@ -117,7 +147,7 @@ function get1(newData1) {
         forAge.innerHTML = element.age
         forAge.classList.add("forAge")
 
-     
+
 
         // btndel
         let btnDel = document.createElement("button")
