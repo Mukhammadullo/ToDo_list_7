@@ -131,6 +131,8 @@ function get1(newData1) {
         btnEdit.onclick = () => {
             editUser1(element)
         }
+        btnEdit.classList.add("btnEdit")
+
 
         let card1_inner = document.createElement("div")
         card1_inner.classList.add("card1_inner")
@@ -164,7 +166,11 @@ function get2(newData2) {
             editUser2(element)
         }
 
-        card2.append(forName, forAge, btnDel, btnEdit)
+        let card2_inner = document.createElement("div")
+        card2_inner.classList.add("card2_inner")
+
+        card2_inner.append(forName, forAge, btnDel, btnEdit)
+        card2.append(card2_inner)
     });
 }
 // get3___________________

@@ -31,7 +31,7 @@
     border-radius: 5px;
 }
 
-.main_inner_title {
+.main_inner_title1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,20 +80,59 @@
     font-size: 16px;
     border: none;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.btnEdit {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(27, 24, 226);
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
     box-shadow: 0px 0px 3px black;
 }
 
 /* card2________________________________ */
-.card2 {
+.main_card2 {
     width: 32%;
     height: auto;
-    border: 2px solid black;
-
-    box-shadow: 0px 0px 12px black;
     border-radius: 5px;
 }
 
+.main_inner_title2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.card2 {
+    width: 100%;
+}
+
+.AddUser2 {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.card2_inner {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px black;
+    margin-bottom: 15px;
+    padding: 6px;
+}
+
+/* _______________________________ */
 .card3 {
     width: 32%;
     height: auto;
@@ -111,7 +150,7 @@
 }
 
 .titleC {
-    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
 }
 
