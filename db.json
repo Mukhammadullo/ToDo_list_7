@@ -55,7 +55,8 @@
       "id": 1700204865968,
       "name": "Iphone 7s",
       "color": "12 $",
-      "isCompelete": false
+      "isCompelete": false,
+      "isComplete": true
     },
     {
       "id": 1700204925314,
