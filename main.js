@@ -115,6 +115,22 @@ async function asyncSearch1(valueSearch) {
     }
 }
 
+let inpSearch2 = document.querySelector(".inpSearch2")
+console.log(inpSearch2);
+inpSearch2.oninput = () => {
+    asyncSearch2(inpSearch2.value)
+}
+
+async function asyncSearch2(valueSearch) {
+    try {
+        let response = await fetch(`${url2}?q=${valueSearch}`)
+        let data = await response.json()
+        get2(data)
+    } catch (error) {
+        console.error(error);
+    }
+}
+
 
 
 
@@ -213,6 +229,7 @@ function get1(newData1) {
 }
 // get2___________________
 function get2(newData2) {
+    card2.innerHTML=""
     newData2.forEach(element => {
 
         let forName = document.createElement("h1")
