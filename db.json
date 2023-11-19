@@ -1,18 +1,14 @@
 {
   "persons": [
     {
-      "name": "Nokia J8",
-      "age": "120 $",
-      "id": 1700199354440,
-      "isCompelete": false,
-      "isComplete": false
+      "name": "Nokia Y7",
+      "age": "12 $",
+      "id": 1700219462142
     },
     {
-      "id": 1700205018140,
-      "name": "Nokia Prime X",
-      "age": "123 $",
-      "isCompelete": false,
-      "isComplete": true
+      "id": 1700297543319,
+      "name": "Nika j1",
+      "age": "45 $"
     }
   ],
   "cars": [
@@ -28,7 +24,7 @@
       "model": "Galaxy s7",
       "year": "789 $",
       "isCompelete": false,
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 1700204995094,
@@ -43,7 +39,7 @@
       "color": "183 $",
       "id": 1700204806921,
       "isCompelete": false,
-      "isComplete": true
+      "isComplete": false
     },
     {
       "name": "Iphone 15 pro max",
@@ -56,7 +52,7 @@
       "name": "Iphone 7s",
       "color": "12 $",
       "isCompelete": false,
-      "isComplete": true
+      "isComplete": false
     },
     {
       "id": 1700204925314,

@@ -1,3 +1,9 @@
+
+
+
+
+
+
 let btnCancel1 = document.querySelector(".btnCancel1")
 btnCancel1.onclick = () => {
     dialog1.close()
@@ -93,6 +99,24 @@ let url2 = "http://localhost:3000/cars"
 let url3 = "http://localhost:3000/animals"
 
 
+let inpSearch1 = document.querySelector(".inpSearch1")
+console.log(inpSearch1);
+inpSearch1.oninput = () => {
+    asyncSearch1(inpSearch1.value)
+}
+
+async function asyncSearch1(valueSearch) {
+    try {
+        let response = await fetch(`${url1}?q=${valueSearch}`)
+        let data = await response.json()
+        get1(data)
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+
+
 
 
 async function getData1() {
@@ -136,8 +160,11 @@ getData3()
 
 // get1___________________
 function get1(newData1) {
+    card1.innerHTML=""
     newData1.forEach(element => {
 
+
+        
         let forName = document.createElement("h1")
         forName.innerHTML = element.name
         forName.classList.add("forName")
