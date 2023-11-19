@@ -279,6 +279,7 @@ function get2(newData2) {
 }
 // get3___________________
 function get3(newData3) {
+    card3.innerHTML=""
     newData3.forEach(element => {
 
         let forName = document.createElement("h1")
