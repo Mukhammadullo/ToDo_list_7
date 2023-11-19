@@ -435,6 +435,7 @@
     font-size: 20px;
     padding: 5px;
 }
+
 .btnSave2 {
     width: 130px;
     height: 40px;
@@ -446,6 +447,7 @@
     font-size: 20px;
     border: none;
 }
+
 /* main_dialogEdit3 */
 .main_dialogEdit3 {
     position: absolute;
@@ -483,6 +485,7 @@
     font-size: 20px;
     padding: 5px;
 }
+
 .btnSave3 {
     width: 130px;
     height: 40px;
@@ -497,70 +500,88 @@
 
 
 /* btnCancel */
-.btnCancel1{
+.btnCancel1 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
-.btnCancel2{
+
+.btnCancel2 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
-.btnCancel3{
+
+.btnCancel3 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
+
 /* btnCancel */
-.btnCancel11{
+.btnCancel11 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
-.btnCancel22{
+
+.btnCancel22 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
 }
-.btnCancel33{
+
+.btnCancel33 {
     width: 130px;
-        height: 40px;
-        margin-left: 10px;
-        border-radius: 5px;
-        background-color: red;
-        box-shadow: 0px 0px 3px black;
-        color: white;
-        font-size: 20px;
-        border: none;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: red;
+    box-shadow: 0px 0px 3px black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* search1 */
+.inpSearch1 {
+    width: 350px;
+    height: 50px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px red;
+    outline: none;
+font-size: 18px;
 }
