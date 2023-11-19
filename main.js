@@ -115,6 +115,7 @@ async function asyncSearch1(valueSearch) {
     }
 }
 
+// inpSearch2 search
 let inpSearch2 = document.querySelector(".inpSearch2")
 console.log(inpSearch2);
 inpSearch2.oninput = () => {
@@ -126,6 +127,22 @@ async function asyncSearch2(valueSearch) {
         let response = await fetch(`${url2}?q=${valueSearch}`)
         let data = await response.json()
         get2(data)
+    } catch (error) {
+        console.error(error);
+    }
+}
+// inpSearch3 search
+let inpSearch3 = document.querySelector(".inpSearch3")
+console.log(inpSearch3);
+inpSearch3.oninput = () => {
+    asyncSearch3(inpSearch3.value)
+}
+
+async function asyncSearch3(valueSearch) {
+    try {
+        let response = await fetch(`${url3}?q=${valueSearch}`)
+        let data = await response.json()
+        get3(data)
     } catch (error) {
         console.error(error);
     }
